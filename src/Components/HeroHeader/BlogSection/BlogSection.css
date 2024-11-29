@@ -1,0 +1,95 @@
+.blog-section {
+  padding: 2rem;
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.blog-head {
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-head-left {
+  /* border: 2px solid yellow; */
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: self-start;
+}
+.blog-head button {
+  background-color: #6b46c1;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  height: 40px;
+  margin-top: 5px;
+}
+.blog-head button:hover {
+  background-color: #553c9a;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.category {
+  color: #6941c6;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.description {
+  font-size: 14px;
+  margin: 0 0 15px 0;
+  text-align: left;
+  color: gray;
+}
+
+.author-info {
+  display: flex;
+  gap: 8px;
+  /* justify-content: space-between; */
+  font-size: 12px;
+}
+
+.author-info .author {
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,60 @@
+.Subfeatures-section {
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+  border-bottom: 1px solid gainsboro;
+}
+.Subfeature-head {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #6941c6;
+}
+
+.Subfeatures-section h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.Subfeatures-description {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #666;
+  font-size: 1rem;
+}
+
+.Subfeature-img{
+    margin-top: 40px;
+    margin-bottom: -100px;
+}
+
+.Subfeatures-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  /* margin-top: 2rem; */
+}
+
+.Subfeature-card {
+  width: 350px;
+  padding: 1.5rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.Subfeature-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Subfeature-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.Subfeature-text {
+  color: #666;
+  font-size: 0.95rem;
+}

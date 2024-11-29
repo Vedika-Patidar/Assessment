@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid gainsboro;
+}
+
+.navbar {
+  /* border: 2px solid red; */
+  display: flex;
+  height: 70px;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  /* border: 2px solid gainsboro; */
+  width: 100%;
+}
+
+.navbar ul li {
+  list-style: none;
+  font-size: 20px;
+}
+.navbar-right button {
+  background: transparent;
+  border: 1px solid gainsboro;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.navbar-right button:hover{
+    background-color: rgb(137, 217, 231);
+}

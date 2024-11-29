@@ -1,0 +1,46 @@
+.cta_section {
+  text-align: center;
+  /* width: 100%; */
+  background-color: #f9fafb;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cta_section h1 {
+  margin-top: 40px;
+}
+.cta_section .cta-button {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.cta-button .learn-btn {
+  background-color: white;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  height: 40px;
+  margin-top: 5px;
+  border: 1px solid gainsboro;
+}
+
+.cta-button .start-btn {
+  background-color: #6b46c1;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  height: 40px;
+  margin-top: 5px;
+}
